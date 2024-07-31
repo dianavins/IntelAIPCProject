@@ -19,10 +19,10 @@ The Multimodal Reading Tutor is an interactive and engaging tool to assist eleme
 - Listens to user say those letters and their sounds
 
 # core functionalities
-Intel® OpenVINO™ Toolkit, Intel oneAPI, PyTorch, HuggingFace datasets
-Meta AI’s Wav2Vec speech & phoneme recognition
-Fine tuned Llama for making reading assignments & question prompts
-DALL-E Mini for picture generation
+- Intel® OpenVINO™ Toolkit, Intel oneAPI, PyTorch, HuggingFace datasets
+- Meta AI’s Wav2Vec speech & phoneme recognition
+- Fine tuned Llama for making reading assignments & question prompts
+- DALL-E Mini for picture generation
 
 # UI
 React frontend, Django backend
