@@ -1,0 +1,67 @@
+Simple sentence feature
+Teaches by giving examples of simple sentences (difficulty depending on grade level?)
+Uses speech recognition to hear that the student is reading correctly
+Uses pictures to describe the word when it hears mumbling 
+Teaches using story telling feature (difficulty depending on grade level?)
+Makes a picture book (each sentence gets a picture)
+Reads first page, you read the next
+Asks you questions about the reading to develop analytical thinking skills
+Words feature
+Teaches letters of the alphabet
+Teaches phonemes
+Listens to user say those letters and their sounds
+
+
+
+Story telling
+https://huggingface.co/GOAT-AI/GOAT-70B-Storytelling
+
+
+Picture generator from sentence
+https://huggingface.co/op74185/watercolor-illustration
+https://huggingface.co/KappaNeuro/studio-ghibli-style
+
+
+Story question maker
+Use llama.cpp
+Zero shot learning / prompt engineering
+
+
+Speech recognition
+Whisper
+https://www.intel.com/content/www/us/en/developer/articles/technical/speechrec.html
+Text to speech
+https://huggingface.co/coqui/XTTS-v2
+https://huggingface.co/microsoft/speecht5_tts
+https://huggingface.co/fishaudio/fish-speech-1.2-sft
+
+
+Backend to connect everything
+?
+Frontend (Flask, tkinter)
+
+
+OpenVINO to make the models fit on the AI PC
+
+
+Questions:
+
+How does backend work?
+Everything required for a desktop app
+Organizing workload
+Virtual environments
+OpenVINO / quantization
+CUDA vs driver
+
+For website to desktop app:
+https://www.electronjs.org/ 
+https://tauri.app/
+
+TASKS:
+Add slides to github and update README
+Draw frontend, start on html
+https://mui.com/
+
+
+Figure out openvino for models
+Run a model
