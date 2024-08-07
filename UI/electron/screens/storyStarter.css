@@ -1,0 +1,133 @@
+body {
+    font-family: Papyrus, sans-serif;
+    margin: 0;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #420068;
+    background: #152A50;
+    height: 80vh;
+}
+
+.center-rectangle {
+    background-color: rgb(235, 230, 208);
+    width: 60%; 
+    height: 90%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 20px; /* Position 20% from the top of the white box */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #53d5ec;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.exit-button:hover {
+    background-color: #58a2c0;
+}
+
+.audio-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-right: 5px;
+    color: #53d5ec;
+}
+
+.audio-button:hover {
+    color: #58a2c0;
+}
+
+.input-form {
+    width: 100%; /* Ensures the form takes the full width of the rectangle */
+    margin-top: 60px; /* Adjusts the top margin to position the form below the title */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    flex: 1;
+    font-size: 1.2em;
+    color: #152A50; /* Darker color for labels */
+}
+
+input {
+    flex: 2;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.generate-button {
+    align-self: center; /* Center the button horizontally */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: Papyrus, sans-serif;
+    background-color: #e2b241;
+    border-color:#420068;
+    border-width: 5px;
+    color: #420068;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.generate-button:hover {
+    font-family: Papyrus, sans-serif;
+    background-color: #e4cc44;
+    border-color:#420068;
+    border-width: 5px;
+}
+
+.generate-random-button {
+    align-self: center; /* Center the button horizontally */
+    margin-top: 0px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: Papyrus, sans-serif;
+    background-color: #e2b241;
+    border-color:#420068;
+    border-width: 5px;
+    color: #420068;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.generate-random-button:hover {
+    font-family: Papyrus, sans-serif;
+    background-color: #e4cc44;
+    border-color:#420068;
+    border-width: 5px;
+}

@@ -46,6 +46,23 @@ body {
     margin-right: 20px;
 }
 
+.circle-button:hover {
+    background-color: #c18b1e;
+}
+
 span {
     font-size: 1.2em;
+}
+
+.audio-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin-left: 5px;
+    color: #53d5ec;
+}
+
+.audio-button:hover {
+    color: #58a2c0;
 }

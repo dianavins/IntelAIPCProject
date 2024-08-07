@@ -4,9 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Story Starter</title>
+  <link rel="stylesheet" href="storyStarter.css">
 </head>
 <body>
-  <h1>Story Book Potion</h1>
-  <p>This is the story starter page.</p>
+  <button class="exit-button" onclick="goHome()">Exit</button>
+  <button class="audio-button" onclick="playAudio('home')">🔊</button>
+  <div class = "center-rectangle">
+    <h1>Story Book Potion</h1>
+    <button class="generate-random-button" onclick="goToStoryTelling()">Generate Random</button>
+    <button class="audio-button" onclick="playAudio('generate random')">🔊</button>
+    <form class="input-form">
+      <div class="input-container">
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre">
+        <button class="audio-button" onclick="playAudio('genre')">🔊</button>
+      </div>
+      <div class="input-container">
+        <label for="time">Time:</label>
+        <input type="text" id="time" name="time">
+        <button class="audio-button" onclick="playAudio('time')">🔊</button>
+      </div>
+      <div class="input-container">
+        <label for="place">Place:</label>
+        <input type="text" id="place" name="place">
+        <button class="audio-button" onclick="playAudio('place')">🔊</button>
+      </div>
+      <div class="input-container">
+        <label for="characters">Characters:</label>
+        <input type="text" id="characters" name="characters">
+      </div>
+    </form>
+    <button class="generate-button" onclick="goToStoryTelling()">Generate</button>
+    <button class="audio-button" onclick="playAudio('generate')">🔊</button>
+  </div>
+  </body>
+  <script src="storyStarter.js"></script>
 </body>
 </html>
+
+
