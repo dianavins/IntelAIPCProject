@@ -1,0 +1,25 @@
+{
+    "name": "intel-ai-pc-project",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^13.6.9"
+    },
+    "description": "multimodal reading tutor desktop app",
+    "repository": {
+        "type": "git",
+        "url": "IntelAIPCProject"
+    },
+    "keywords": [
+        "LLM",
+        "text-to-speech",
+        "voice-to-voice",
+        "speech-recognition",
+        "AI4SG"
+    ],
+    "author": "Diana Vins",
+    "license": "MIT"
+}
