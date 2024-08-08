@@ -1,0 +1,20 @@
+STORY TELLING MODEL IS A FINE TUNED, ZERO SHOT LEARNING MODEL
+
+Model: https://huggingface.co/meta-llama/Meta-Llama-3-8B
+
+Fine tuning dataset: https://huggingface.co/datasets/ajibawa-2023/Children-Stories-Collection?row=20
+
+Prompt:
+
+Write an educational story (3-5 paragraphs) targeted at young children using simple words. The story should be inspired from this text snippet: {}. The story should have the following features: - Science integration: embed basic science concepts within the story, explaining them through the characters' adventures and discoveries. - Characters and dialogue: create memorable characters who engage in meaningful conversations, helping to explain and explore the science concepts. - Unexpected twist: conclude with a twist that doesn't resolve as hoped, but leaves a clear lesson about life and science.
+
+The kids have the option to tell the model what they're interested in for the model to make a story off of it
+--> connection to speech recognition model
+
+** submit to Intel LLM leaderboard
+
+Practice:
+https://github.com/openvinotoolkit/openvino_notebooks/blob/main/notebooks/254-llm-chatbot
+
+write me code that does zero shot learning for this model: https://huggingface.co/meta-llama/Meta-Llama-3-8B and this prompt: "Write an educational story (3-5 paragraphs) targeted at young children using simple words. The story should be inspired from this text snippet: {}. The story should have the following features: - Science integration: embed basic science concepts within the story, explaining them through the characters' adventures and discoveries. - Characters and dialogue: create memorable characters who engage in meaningful conversations, helping to explain and explore the science concepts. - Unexpected twist: conclude with a twist that doesn't resolve as hoped, but leaves a clear lesson about life and science."
+and uses intel oneAPI toolkits, OpenVINO, and optimum.

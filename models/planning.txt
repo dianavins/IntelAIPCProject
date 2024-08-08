@@ -1,0 +1,16 @@
+Efficiency notes:
+
+* OpenVINO is for inference and quantization
+
+OpenVINO can do at runtime customized to Your hardware (preserving
+model accuracY), including:
+automatic performance enhancements
+AsYnchronous execution, batch processing, tensor fusion, load balancing, dYnamic inference parallelism,
+automatic BF16 conversion, and more.
+
+https://medium.com/openvino-toolkit/techniques-for-faster-ai-inference-throughput-with-openvino-on-intel-discrete-gpus-4bbe3a3f1543
+
+PRACTICE:
+https://github.com/openvinotoolkit/openvino_notebooks/blob/main/notebooks
+
+https://llama.meta.com/llama-downloads/

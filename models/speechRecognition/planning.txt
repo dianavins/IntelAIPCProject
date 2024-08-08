@@ -1,0 +1,2 @@
+Whisper
+https://www.intel.com/content/www/us/en/developer/articles/technical/speechrec.html

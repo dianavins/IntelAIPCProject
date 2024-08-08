@@ -15,6 +15,7 @@ Listens to user say those letters and their sounds
 
 Story telling
 https://huggingface.co/GOAT-AI/GOAT-70B-Storytelling
+https://huggingface.co/datasets/ajibawa-2023/Children-Stories-Collection
 
 
 Picture generator from sentence
@@ -22,7 +23,7 @@ https://huggingface.co/op74185/watercolor-illustration
 https://huggingface.co/KappaNeuro/studio-ghibli-style
 
 
-Story question maker
+Story question maker / chat bot for story telling
 Use llama.cpp
 Zero shot learning / prompt engineering
 
@@ -30,6 +31,7 @@ Zero shot learning / prompt engineering
 Speech recognition
 Whisper
 https://www.intel.com/content/www/us/en/developer/articles/technical/speechrec.html
+
 Text to speech
 https://huggingface.co/coqui/XTTS-v2
 https://huggingface.co/microsoft/speecht5_tts
@@ -38,7 +40,9 @@ https://huggingface.co/fishaudio/fish-speech-1.2-sft
 
 Backend to connect everything
 ?
-Frontend (Flask, tkinter)
+
+Frontend (electron.js)
+https://www.electronjs.org/docs/latest/tutorial/window-customization
 
 
 OpenVINO to make the models fit on the AI PC
@@ -58,7 +62,6 @@ https://www.electronjs.org/
 https://tauri.app/
 
 TASKS:
-Add slides to github and update README
 Draw frontend, start on html
 https://mui.com/
 
