@@ -1,0 +1,2 @@
+- zero shot learning on same model used for writing the story
+- prompt: "Write a short, thoughtful and insightful questions about the story thus far: " (insert story thus far)
