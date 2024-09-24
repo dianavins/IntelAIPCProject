@@ -1,15 +1,22 @@
-const { ipcRenderer } = require('electron');
+document.addEventListener('DOMContentLoaded', function() {
+    const images = JSON.parse(localStorage.getItem('images')); // Assume images are paths like 'img1.png'
+    const storyText = JSON.parse(localStorage.getItem('storyText')); // Assume text is an array of sentences
+    let currentIndex = 0;
 
-function goHome() {
-    ipcRenderer.send('open-page', 'HomeScreen.html');
-}
+    function updateContent() {
+        document.getElementById('story-image').src = images[currentIndex];
+        document.getElementById('story-text').textContent = storyText[currentIndex];
+    }
 
-function goLeft() {
-    // Add your logic for the left arrow button click
-    console.log('Left arrow clicked');
-}
+    window.navigate = function(direction) {
+        if (direction === 'next' && currentIndex < images.length - 1) {
+            currentIndex++;
+            updateContent();
+        } else if (direction === 'prev' && currentIndex > 0) {
+            currentIndex--;
+            updateContent();
+        }
+    }
 
-function goRight() {
-    // Add your logic for the right arrow button click
-    console.log('Right arrow clicked');
-}
+    updateContent(); // Initial update
+});

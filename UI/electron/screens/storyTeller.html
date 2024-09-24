@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Story Teller</title>
-  <link rel="stylesheet" href="storyTeller.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Teller</title>
+    <link rel="stylesheet" href="storyTeller.css">
 </head>
 <body>
-  <button class="exit-button" onclick="goHome()">Exit</button>
-  <div class="content">
-    <button class="arrow-button left-arrow" onclick="goLeft()">&#9664;</button>
-    <img src="path/to/your/image.jpg" alt="Landscape" class="landscape-image">
-    <button class="arrow-button right-arrow" onclick="goRight()">&#9654;</button>
-  </div>
-  <p class="story-text">Once upon a time, in a land far away...</p>
-  <script src="storyTeller.js"></script>
+    <div class="image-container" style="text-align: center;">
+        <img id="story-image" src="" alt="Story Image">
+    </div>
+    <div class="text-container" style="text-align: center;">
+        <p id="story-text"></p>
+    </div>
+    <div class="navigation">
+        <button onclick="navigate('prev')">Previous</button>
+        <button onclick="navigate('next')">Next</button>
+    </div>
+    
+    <script src="storyTeller.js"></script>
 </body>
 </html>

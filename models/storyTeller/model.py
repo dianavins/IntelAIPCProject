@@ -1,1 +1,1 @@
-# copy paste ./model.ipynb into here
+# copy paste from notebook into here

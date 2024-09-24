@@ -7,3 +7,6 @@ models:
 https://huggingface.co/black-forest-labs/FLUX.1-dev
 https://huggingface.co/black-forest-labs/FLUX.1-schnell
 https://huggingface.co/XLabs-AI/flux-lora-collection
+
+speeding inference:
+https://huggingface.co/docs/diffusers/en/tutorials/fast_diffusion

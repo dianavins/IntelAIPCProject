@@ -1,0 +1,21 @@
+{
+    "model": {
+        "model_name": "UNet",
+        "model_path": "optimized_unet_model/unet_model.xml",
+        "weights_path": "optimized_unet_model/unet_model.bin"
+    },
+    "engine": {
+        "type": "simplified",
+        "data_source": "path_to_validation_dataset"
+    },
+    "algorithms": [
+        {
+            "name": "DefaultQuantization",
+            "params": {
+                "target_device": "CPU",
+                "preset": "performance",
+                "stat_subset_size": 300
+            }
+        }
+    ]
+}

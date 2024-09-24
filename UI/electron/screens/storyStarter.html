@@ -9,9 +9,9 @@
 <body>
   <button class="exit-button" onclick="goHome()">Exit</button>
   <button class="audio-button" onclick="playAudio('home')">🔊</button>
-  <div class = "center-rectangle">
+  <div class="center-rectangle">
     <h1>Story Book Potion</h1>
-    <button class="generate-random-button" onclick="goToStoryTelling()">Generate Random</button>
+    <button class="generate-random-button" onclick="generateStoryAndNavigate()">Generate Random</button>
     <button class="audio-button" onclick="playAudio('generate random')">🔊</button>
     <form class="input-form">
       <div class="input-container">
@@ -34,12 +34,10 @@
         <input type="text" id="characters" name="characters">
       </div>
     </form>
-    <button class="generate-button" onclick="goToStoryTelling()">Generate</button>
+    <button class="generate-button" onclick="generateStory()">Generate Story</button>
     <button class="audio-button" onclick="playAudio('generate')">🔊</button>
   </div>
-  </body>
   <script src="storyStarter.js"></script>
+
 </body>
 </html>
-
-

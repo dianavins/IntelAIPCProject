@@ -1,1 +1,4 @@
 node_modules/
+models/storyTeller/phi-3-mini-instruct-INT4_compressed_weights
+models\storyTeller\phi-3-mini-instruct
+models/imageGen/ao
